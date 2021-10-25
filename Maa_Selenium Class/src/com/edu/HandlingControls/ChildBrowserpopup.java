@@ -15,6 +15,7 @@ public class ChildBrowserpopup {
 		WebDriver driver =new ChromeDriver();
 		WebDriverWait wait=new WebDriverWait(driver, 10);
 		System.out.println(driver.getWindowHandle());
+		
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.get("http://popuptest.com/");

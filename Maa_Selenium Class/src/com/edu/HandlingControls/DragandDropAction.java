@@ -26,6 +26,7 @@ public class DragandDropAction {
 		
 		Actions action=new Actions(driver);
 		action.dragAndDrop(Src, Des).perform();
+	
        
 	}
 

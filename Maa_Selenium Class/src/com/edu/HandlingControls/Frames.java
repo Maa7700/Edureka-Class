@@ -20,6 +20,7 @@ public class Frames {
 		driver.get("http://demo.automationtesting.in/Frames.html");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		WebElement singleframe=driver.findElement(By.xpath("//iframe[@src='SingleFrame.html']"));
+		
 
 
 		driver.switchTo().frame(singleframe);
