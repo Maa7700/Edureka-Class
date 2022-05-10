@@ -18,6 +18,7 @@ public class Selenium_LaunchBrowser {
 		///Window handle mainly shows the Browser Instance ID.Then We know which browser currently it is in case of if multiple browser if oppens.
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
+	
 		
 		driver.navigate().to("https://www.amazon.in/");
 		driver.navigate().back();
