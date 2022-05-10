@@ -31,11 +31,13 @@ public class LocatorByXpath {
 		
 		String Text1=driver.findElement(By.xpath("//span[text()='Create an account']")).getText();
 		System.out.println(Text1);
+		
 		WebElement Number=driver.findElement(By.xpath("(//input[@class='inputtext _58mg _5dba _2ph-'])[3]"));
 		Number.sendKeys("8291447029");
 		
 		WebElement Firstname=driver.findElement(By.xpath("(//input[@class='inputtext _58mg _5dba _2ph-'])[1]"));
 		Firstname.sendKeys("Baba");
+		
 		String text=driver.findElement(By.xpath("//div[starts-with(text(),'Facebook helps')]")).getText();
 		System.out.println(text);
 		

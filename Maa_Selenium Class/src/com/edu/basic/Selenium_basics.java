@@ -7,9 +7,11 @@ public class Selenium_basics {
 		int b=7;
 		int c=a+b;
 		int f=a-b;
+		int g=a*b;
 		
-		System.out.println("Value of C is:" +a);
-		System.out.println("Value of C is:" +f);
+		System.out.println("Value of Addition is:" +a);
+		System.out.println("Value of substraction is:" +f);
+		System.out.println("Value of Multiplication is "+g);
 
 	}
 
