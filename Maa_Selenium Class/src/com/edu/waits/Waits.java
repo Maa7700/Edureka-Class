@@ -20,6 +20,8 @@ public class Waits {
 		driver.manage().window().maximize();
 		driver.get("https://www.Facebook.com/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		
    WebElement Email=driver.findElement(By.name("email"));
    Email.sendKeys("ankitdking3@gmail.com");
    ///Thread.sleep(10000);

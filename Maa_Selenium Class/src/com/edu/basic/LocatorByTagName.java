@@ -16,7 +16,7 @@ public class LocatorByTagName {
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
-///Collection Frame Work Used because it find multiple elements links and also return multiple inks so need to create For Loop in this collection.
+///Collection Frame Work Used because it find multiple elements links and also return multiple links so need to create For Loop in this collection.
 		///cases. Collection is nothing Just Storage.
 		List<WebElement>alllinks= driver.findElements(By.tagName("a"));
 		System.out.println(alllinks.size());

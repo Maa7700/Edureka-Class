@@ -36,3 +36,12 @@ public class Selenium_LaunchBrowser {
 	}
 
 }
+
+
+/*
+
+Quit method - It close all the browser windows and ends the webdriver session.
+
+Close method - It close the current browser window and however webdriver session is active.
+
+*/
