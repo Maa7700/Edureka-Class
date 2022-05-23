@@ -52,3 +52,4 @@ else
 ///Dynamic Wait/Conditional Synchronization is of 2 types-Implicitly wait,Explicitily Wait.
 ///Implicitily Wait-It mainly used for FindElemet/Elements method. Its the time given the webelement for loading;Post web element loaded it move for further action.No need to wait for mention time.
 ///Explicitly Wait- It mainly used for particular condition if executed.
+///Synchronization is used to make application under test and automation tool to run paralleley. Some time webpage launch so faster than webdriver so no elemrnt found or page timeout exception occured. 
