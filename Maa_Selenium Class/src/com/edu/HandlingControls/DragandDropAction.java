@@ -1,8 +1,10 @@
 package com.edu.HandlingControls;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -26,6 +28,9 @@ public class DragandDropAction {
 		
 		Actions action=new Actions(driver);
 		action.dragAndDrop(Src, Des).perform();
+		
+		
+	
 	
        
 	}
