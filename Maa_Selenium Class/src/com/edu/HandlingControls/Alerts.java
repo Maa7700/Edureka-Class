@@ -22,7 +22,7 @@ public static void main(String[] args) throws InterruptedException {
 		driver.get("http://demo.automationtesting.in/Alerts.html");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
-		///Popup Types-Alert Popup,Hidden Division Popup,WindowPopup,ChildBrowser Popu
+		///Popup Types-Alert Popup,Hidden Division Popup,WindowPopup,ChildBrowser Popup
 		//Information Alert
 		
 		//driver.findElement(By.xpath("//button[@class='btn btn-danger']")).click();
